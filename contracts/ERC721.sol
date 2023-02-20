@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.17;
 
 contract ERC721 {
      event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);
@@ -89,7 +89,7 @@ contract ERC721 {
     }
 
     //EIP165 proposal : query if a contract implement another interface
-    function supportInterface(bytes4 interfaceID) public pure virtual returns(bool) {
+    function supportsInterface(bytes4 interfaceID) public pure virtual returns(bool) {
         return interfaceID == 0x80ac58cd;
     }
    

@@ -1,0 +1,46 @@
+{
+    "name": "Naruto",
+    "description": "This is naruto colectible of Vanduc19it",
+    "image": "https://ipfs.io/ipfs/QmewrkxYMHnjwUEZFr1DtnNDMVfGEzAHqviWRS8XqfoajD",
+    "attributes": [
+        {
+          "trait_type": "Base", 
+          "value": "Sage Mode"
+        }, 
+        {
+          "trait_type": "Eyes", 
+          "value": "Yellow"
+        }, 
+        {
+          "trait_type": "Mouth", 
+          "value": "Smile"
+        }, 
+        {
+          "trait_type": "Level", 
+          "value": 10
+        }, 
+        {
+          "trait_type": "Stamina", 
+          "value": 8
+        }, 
+        {
+          "trait_type": "Personality", 
+          "value": "Earnest"
+        }, 
+        {
+          "display_type": "boost_number", 
+          "trait_type": "Aqua Power", 
+          "value": 40
+        }, 
+        {
+          "display_type": "boost_percentage", 
+          "trait_type": "Stamina Increase", 
+          "value": 10
+        }, 
+        {
+          "display_type": "number", 
+          "trait_type": "Generation", 
+          "value": 2
+        }
+    ]    
+}
