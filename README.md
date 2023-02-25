@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+command: npx hardhat node npx hardhat compile npx hardhat test
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Deploy: npx hardhat run scripts/deploy.js --network matic
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+polygon testnet: https://mumbai.polygonscan.com/address/0xf14fD5FFEbBa9493Dd7Fb2CC33D97B1589C29A88
